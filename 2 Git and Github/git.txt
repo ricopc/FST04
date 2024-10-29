@@ -16,3 +16,8 @@ git init
 git add .
 
 //git commit -m "Message"
+//git commit -m "edited"
+
+
+//git branch "firstbranch"
+//git branch -a
