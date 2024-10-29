@@ -9,15 +9,24 @@ git config user.email
 // Initialized into a Git Repository
 git init
 
-
 // Git Three Stages 
 
 // add files to the staging area
 git add .
 
 //git commit -m "Message"
-//git commit -m "edited"
 
+//Add a branch to our repository
+git branch "firstbranch"
 
-//git branch "firstbranch"
-//git branch -a
+//list of all the branches
+git branch -a
+
+//switching to a different branch
+git checkout firstbranch
+
+//merging branch to the main branch
+git merge firstbranch
+
+//removing branch
+git branch -d [branchname]
